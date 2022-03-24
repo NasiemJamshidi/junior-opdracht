@@ -15,11 +15,17 @@ package nl.novi.jp.methods.junior;
 
 public class JuniorFour {
     public static void main(String[] args) {
-        //doTransaction(1000, -200);
-        //doTransaction(123, 3445);
+        doTransaction(1000, -200);
+        doTransaction(123, 3445);
+
     }
 
-    public static void doTransaction() {
+    public static void doTransaction(int i, int i1) {
+        if( i > i1){
+            System.out.println("geld storten");
+        } else if( i< i1){
+            System.out.println("Withdraw");
+        }
 
     }
 

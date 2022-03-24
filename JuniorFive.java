@@ -10,4 +10,13 @@ package nl.novi.jp.methods.junior;
  */
 
 public class JuniorFive {
+    public static void main(String[] args) {
+        System.out.println("Come on boys");
+
+        String username= "English Language";
+        System.out.println("Yes i did it");
+
+    }
 }
+
+

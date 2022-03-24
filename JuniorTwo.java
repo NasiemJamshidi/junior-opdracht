@@ -10,19 +10,26 @@ package nl.novi.jp.methods.junior;
  */
 public class JuniorTwo {
 
+
+
     public static void main(String[] args) {
         doubleIt(33);
-        squareTheNumber( number: 33)
+        squareTheNumber(33);
+
+
     }
 
     public static void doubleIt(int number) {
         int doubledNumber = number + number;
         System.out.println("Het getal " + number + " is verdubbeld: " + doubledNumber);
     }
-
-    public static void squareTheNumber() {
+    public static void squareTheNumber(int number) {
         int squareNumber = number / number;
-        System.out.println("Het getal" + number / "sguar: " + Squarnumber );
+        System.out.println("Het getal" + number + "sguar: " + squareNumber );
 
     }
+
+
+
+
 }
